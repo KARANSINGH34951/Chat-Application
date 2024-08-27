@@ -102,11 +102,14 @@ body {
   color: #2d2d2d;
   text-align: center;
 }
-
 .message-form {
   display: flex;
+  align-items: center; /* Align items in the center */
   justify-content: space-between;
-  width: 400px;
+  width: 100%; /* Use the full width available */
+  max-width: 500px; /* Set a max width for the form */
+  margin: 0 auto; /* Center the form horizontally */
+  padding: 10px; /* Add padding to give some space around the form */
 }
 
 .message-input {
@@ -117,18 +120,21 @@ body {
   outline: none;
   padding: 0 12px;
   background-color: #fff;
+  margin-right: 8px; /* Add some space between the input and the button */
 }
 
 .send-button {
   height: 48px;
+  width: 50px;
   font-size: 16px;
   border: none;
-  color: black;
-  padding: 0px 20px;
-  outline: none;
-  background-color: #fff;
+  background-color: #f0f0f0;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 
 .v-divider {
   height: 48px;
